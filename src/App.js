@@ -7,6 +7,7 @@ import ProductView from "./component/ProductView";
 import Cart from "./component/Cart";
 import Checkout from "./component/Checkout";
 import About from "./component/About";
+import Contact from "./component/Contact";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/cart" component={Cart}/>
         <Route exact path="/checkout" component={Checkout}/>
         <Route exact path="/about" component={About}/>
+        <Route exact path="/contact" component={Contact}/>
       </Switch>
     </>
   );
