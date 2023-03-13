@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="container">
         <div className="row">
             <div className="col-12 text-center">
-                <h1>Have Some Query?</h1>
+                <h1 className='text-primary fw-bold mb-4'>Have Some Query?</h1>
                 <hr />
             </div>
         </div>
@@ -18,7 +18,7 @@ const Contact = () => {
                 <form >
 <div className="mb-3">
   <label for="exampleFormControlInput1" className="form-label">Full Name</label>
-  <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Full Name"/>
+  <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="John Smith"/>
 </div>
                     <div className="mb-3">
   <label for="exampleFormControlInput1" className="form-label">Email address</label>
