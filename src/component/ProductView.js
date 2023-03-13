@@ -4,6 +4,7 @@ import { addCart } from "../redux/action";
 import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 const ProductView = () => {
   const { id } = useParams();
   const [product, setProduct] = useState([]);
@@ -84,6 +85,7 @@ const ProductView = () => {
           {loading ? <Loading /> : <ShowProduct />}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

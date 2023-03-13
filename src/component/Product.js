@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 const Product = () => {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
@@ -127,6 +128,7 @@ const Product = () => {
           {loading ? <Loading /> : <ShowProducts />}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
