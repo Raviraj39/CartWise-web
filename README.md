@@ -1,7 +1,6 @@
 # CartWise E-commerce Website Project
 
-The CartWise project aimed to develop a dynamic e-commerce website, leveraging a REST API and Redux for an enriched user experience
-
+The CartWise project aimed to develop a dynamic e-commerce website, leveraging a REST API and Redux for an enriched user experien
 
 
 
