@@ -18,19 +18,18 @@ The CartWise project aimed to develop a dynamic e-commerce website, leveraging a
 
 ## Results
 
-
-### Functionality: 
+### - Functionality: 
 ● Featured a comprehensive product catalogue with detailed information. 
 ● Implemented a streamlined shopping cart, allowing users to easily add and proceed to checkout. 
 ● Enhanced user experience with filters for efficient product discovery. 
 ● Ensured a seamless experience across various devices. 
- ### Challenges: 
+ ### - Challenges: 
  ● Focused attention on overcoming challenges related to Redux state management.
  
 ## Conclusion:
  In conclusion, the CartWise project has successfully delivered a dynamic e-commerce platform with an intuitive user interface and robust functionality. The integration of the REST API facilitated efficient data exchange, while Redux played a pivotal role in ensuring a smooth and responsive user experience.
 
-##References: 
+## References: 
 ● API- https://fakestoreapi.com
 
 
