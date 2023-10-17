@@ -1,6 +1,5 @@
 import React from "react";
 import bg from "../assets/bg.jpg";
-import Footer from "./Footer";
 import Product from "./Product";
 const Home = () => {
   return (
